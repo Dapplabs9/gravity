@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity Calc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <body>
+            <div class="btn btn-primary heading"><h2>Gravity Calculator</h2></div>
+            <input type="range" min="0" max="24" value="9.8" id="slider">
+            <h4 id="gravity">Gravity of Earth is 9.8</h4>
+            <h4>speed of the object falling towards Earth is 140</h4>
+            <button class="btn btn-success">Start</button>
+            <button class="btn btn-danger">Stop</button>
+            <br>
+            <br>
+            <canvas height="400" width="400" id="myCanvas"></canvas>
+        </body>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
